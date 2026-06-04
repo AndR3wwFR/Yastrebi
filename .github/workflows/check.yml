@@ -34,4 +34,3 @@ jobs:
 
       - name: Собрать проект
         run: dotnet build backend/TeamApi/TeamApi.csproj
-

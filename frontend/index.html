@@ -1,13 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Команда Yastrebi</title>
-    <p>Мы команда Yastrebi, состоящая из 3х человек Perry2016-89 - Developer, AndR3wwFR - Teach Lead, rockiking - QA / Tester.
-Мы собираемся выполнитиь задание под названием: Коммандная разработка.В результате работы мы желаем получить работающий веб-проект.</p>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Наша команда — Карточки</title>
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    
+    <div class="team-container">
+        <h1 class="section-title">Наша команда</h1>
+        
+        <div class="cards-grid">
+            <div class="team-card">
+                <img src="cats/cat1.jpg" 
+                     class="card-img-top" 
+                     alt="rockiking">
+                <div class="card-body">
+                    <h5 class="card-title">rockiking</h5>
+                    <div class="card-subtitle">TECH LEAD</div>
+                    <p class="card-text">Люблю C#. Ведущий инженер с экспертизой в архитектуре микросервисов.</p>
+                    <a href="#" class="btn-primary">Подробнее →</a>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <img src="cats/cat2.jpg" 
+                     class="card-img-top" 
+                     alt="AndR3www">
+                <div class="card-body">
+                    <h5 class="card-title">AndR3www</h5>
+                    <div class="card-subtitle">DEVELOPER</div>
+                    <p class="card-text">Пишу на C# с 1 курса. Создаю чистый код и масштабируемые бэкенды.</p>
+                    <a href="#" class="btn-primary">Подробнее →</a>
+                </div>
+            </div>
+            
+            <div class="team-card">
+                <img src="cats/cat3.jpg" 
+                     class="card-img-top" 
+                     alt="Perry2016-89">
+                <div class="card-body">
+                    <h5 class="card-title">Perry2016-89</h5>
+                    <div class="card-subtitle">QA</div>
+                    <p class="card-text">Нахожу баги быстрее всех. Автоматизирую регресс и контроль качества.</p>
+                    <a href="#" class="btn-primary">Подробнее →</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

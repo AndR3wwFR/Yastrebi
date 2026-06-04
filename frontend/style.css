@@ -1,0 +1,121 @@
+/* Общие настройки страницы */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    padding: 40px 20px;
+}
+
+/* Контейнер и заголовки секции */
+.team-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #111827;
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    color: #6b7280;
+    margin-bottom: 48px;
+}
+
+/* Сетка для карточек */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+
+/* Стили самой карточки */
+.team-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Эффект при наведении на карточку */
+.team-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* Изображение в карточке */
+.card-img-top {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Тело карточки с контентом */
+.card-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* Имя (Заголовок карточки) */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 4px;
+}
+
+/* Должность под именем */
+.card-subtitle {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #4f46e5; /* Индиго/синий цвет акцента */
+    margin-bottom: 16px;
+}
+
+/* Описание */
+.card-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #4b5563;
+    margin-bottom: 24px;
+    flex-grow: 1; /* Толкает кнопку вниз, если тексты разной длины */
+}
+
+/* Кнопка "Подробнее" */
+.btn-primary {
+    display: inline-block;
+    align-self: flex-start;
+    background-color: #0d6efd; /* Классический синий цвет Bootstrap */
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: background-color 0.15s ease;
+}
+
+/* Эффект при наведении на кнопку */
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}

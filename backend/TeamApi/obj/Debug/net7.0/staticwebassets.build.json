@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "trk1fjlkU2DH4j0lhM+2uUR3PsXjJFvoSQ8+89p8/kM=",
-  "Source": "TeamApi",
-  "BasePath": "_content/TeamApi",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"INdXhpFgKr0Jpg1Etv2N+HOK0s+ZwkX8qq1XE8MDi/Y=","Source":"TeamApi","BasePath":"_content/TeamApi","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
